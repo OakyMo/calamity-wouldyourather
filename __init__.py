@@ -76,7 +76,7 @@ class Farting(MycroftSkill):
         sound_url = 'file://' + path.join(self.path_to_sound_files,
                                           random.choice(self.sound_files))
         tag = TinyTag.get(sound_file)
-        self.audio_service.play(tracks=(sound_url, 'audio/x-mpeg'))
+        self.audio_service.play(tracks=sound_url)
         self.log.info("Fart duration " + str(int(tag.duration)))
         time.sleep(int(tag.duration))
         self.speak_dialog('noise')
