@@ -71,11 +71,10 @@ class Farting(MycroftSkill):
     def fart_and_comment(self):
         # play a randomly selected fart noise and make a comment
         self.log.info("Fart and comment")
-        tag = TinyTag.get(path.join(self.path_to_sound_files, 
-                                    random.choice(self.sound_files)))
-        #self.speak(path.join(self.path_to_sound_files, random.choice(self.sound_files)), wait=true)
-        sound_file = 'file://' + path.join(self.path_to_sound_files, random.choice(self.sound_files))
-        self.audio_service.play(tracks=(sound_file, 'audio/x-mpeg'))
+        sound_file = path.join(self.path_to_sound_files, random.choice(self.sound_files))
+        sound_url = 'file://' + path.join(self.path_to_sound_files, random.choice(self.sound_files))
+        tag = TinyTag.get(sound_file)
+        self.audio_service.play(tracks=(sound_url, 'audio/x-mpeg'))
         self.log.info("Fart duration " + str(int(tag.duration)))
         time.sleep(int(tag.duration))
         self.speak_dialog('noise')
