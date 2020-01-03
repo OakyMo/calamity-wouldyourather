@@ -33,7 +33,7 @@ class Farting(MycroftSkill):
 
     def initialize(self):
         # Search the sounds directory for sound files and load into a list.
-        valid_codecs = ['.mp3', '.wav']
+        valid_codecs = ['.mp3']
         self.path_to_sound_files = path.join(abspath(dirname(__file__)), 'sounds')
         self.sound_files = [f for f in listdir(self.path_to_sound_files) if splitext(f)[1] in valid_codecs]
         self.audio_service = AudioService(self.bus)
@@ -73,9 +73,11 @@ class Farting(MycroftSkill):
         self.log.info("Fart and comment")
         tag = TinyTag.get(path.join(self.path_to_sound_files, 
                                     random.choice(self.sound_files)))
-        self.audio_service.play(tracks=path.join(self.path_to_sound_files, random.choice(self.sound_files)))
+        #self.speak(path.join(self.path_to_sound_files, random.choice(self.sound_files)), wait=true)
+        sound_file = 'file://' + path.join(self.path_to_sound_files, random.choice(self.sound_files))
+        self.audio_service.play(tracks=(sound_file, 'audio/x-mpeg'))
         self.log.info("Fart duration " + str(int(tag.duration)))
-        time.sleep(int(tag.duration) + 1)
+        time.sleep(int(tag.duration))
         self.speak_dialog('noise')
 
     @intent_file_handler('halt_farting.intent')
