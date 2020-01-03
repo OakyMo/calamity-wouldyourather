@@ -19,9 +19,9 @@ This is a rewrite of (@aussieW) skill-farting so it will work on Mycroft-core 19
 * "did you fart"
 * "what is that smell"
 * "fart"
-* "make a farting noise"
+* "make a fart"
 * "fart randomly"
-* "stop farting"
+* "halt farting"
 
 ## Credits
 Andreas Lorensen (@andlo) and (@aussieW)
