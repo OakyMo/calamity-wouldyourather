@@ -45,10 +45,10 @@ class Farting(MycroftSkill):
         self.log.info("Handling fart event")
         if not self.random_farting:
             return
-        self.cancel_scheduled_event('randon_fart'+str(self.counter))
+        self.cancel_scheduled_event('random_fart'+str(self.counter))
         self.counter += 1
         self.schedule_event(self.handle_fart_event, datetime.now() 
-                            + timedelta(seconds=random.randrange(60, 1800)),
+                            + timedelta(seconds=random.randrange(60, 180)),
                             name='random_fart'+str(self.counter))
         self.fart_and_comment()
 
@@ -71,14 +71,14 @@ class Farting(MycroftSkill):
     def fart_and_comment(self):
         # play a randomly selected fart noise and make a comment
         self.log.info("Fart and comment")
-        sound_file = path.join(self.path_to_sound_files,
-                               random.choice(self.sound_files))
-        sound_url = 'file://' + path.join(self.path_to_sound_files,
-                                          random.choice(self.sound_files))
-        tag = TinyTag.get(sound_file)
-        self.audio_service.play(tracks=sound_url)
-        self.log.info("Fart duration " + str(int(tag.duration)))
-        time.sleep(int(tag.duration))
+        #sound_file = path.join(self.path_to_sound_files,
+        #                       random.choice(self.sound_files))
+        #sound_url = 'file://' + path.join(self.path_to_sound_files,
+        #                                  random.choice(self.sound_files))
+        #tag = TinyTag.get(sound_file)
+        #self.audio_service.play(tracks=sound_url)
+        #self.log.info("Fart duration " + str(int(tag.duration)))
+        #time.sleep(int(tag.duration))
         self.speak_dialog('noise')
 
     @intent_file_handler('halt_farting.intent')
