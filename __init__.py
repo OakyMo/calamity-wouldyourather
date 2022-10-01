@@ -61,7 +61,7 @@ class Farting(MycroftSkill):
     def handle_random_intent(self, message):
         # initiate random farting
         self.log.info("Triggering random farting")
-        self.speak_dialog('random_farting')
+        #self.speak_dialog('random_farting')
         self.random_farting = True
         self.schedule_event(self.handle_fart_event, datetime.now()
                             + timedelta(seconds=random.randrange(30, 60)),
@@ -87,7 +87,7 @@ class Farting(MycroftSkill):
         # if in random fart mode, cancel the scheduled event
         if self.random_farting:
             self.log.info("Stopping random farting event")
-            self.speak_dialog('cancel')
+            #self.speak_dialog('cancel')
             self.random_farting = False
             self.cancel_scheduled_event('random_fart'+str(self.counter))
 
