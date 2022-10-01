@@ -1,4 +1,4 @@
-# <img src='fart.png' card_color='#40DBB0' width='50' height='50' style='vertical-align:bottom'/>Farting
+# 
 "who let the dog inside" - Mycroft will fart when requested or at random intervals
 
 ## About
