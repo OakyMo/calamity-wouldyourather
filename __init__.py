@@ -56,7 +56,59 @@ class Farting(MycroftSkill):
     def handle_accuse_intent(self, message):
         # make a comment when accused of farting
         self.speak_dialog('apologise')
-
+        
+    @intent_file_handler('preference.intent')
+    def handle_preference_intent(self, message):
+        self.speak_dialog('nottelling')  
+        
+    @intent_file_handler('letsplay.intent')
+    def handle_letsplay_intent(self, message):
+        self.speak_dialog('playgame')   
+        
+    @intent_file_handler('dying.intent')
+    def handle_dying_intent(self, message):
+        self.speak_dialog('avoiddeath')  
+        
+    @intent_file_handler('dead.intent')
+    def handle_dead_intent(self, message):
+        self.speak_dialog('mourn')   
+        
+    @intent_file_handler('scary.intent')
+    def handle_scary_intent(self, message):
+        self.speak_dialog('scared')  
+        
+    @intent_file_handler('fun.intent')
+    def handle_fun_intent(self, message):
+        self.speak_dialog('enjoy') 
+        
+    @intent_file_handler('bored.intent')
+    def handle_bored_intent(self, message):
+        self.speak_dialog('sleepy') 
+        
+    @intent_file_handler('pretty.intent')
+    def handle_pretty_intent(self, message):
+        self.speak_dialog('pleasant')  
+        
+    @intent_file_handler('angry.intent')
+    def handle_angry_intent(self, message):
+        self.speak_dialog('sympathy')  
+        
+    @intent_file_handler('gross.intent')
+    def handle_gross_intent(self, message):
+        self.speak_dialog('puke') 
+        
+    @intent_file_handler('cool.intent')
+    def handle_cool_intent(self, message):
+        self.speak_dialog('neat')
+        
+    @intent_file_handler('hard.intent')
+    def handle_hard_intent(self, message):
+        self.speak_dialog('cando')   
+        
+    @intent_file_handler('try.intent')
+    def handle_try_intent(self, message):
+        self.speak_dialog('doit')    
+        
     @intent_file_handler('random.intent')
     def handle_random_intent(self, message):
         # initiate random farting
