@@ -81,7 +81,7 @@ class Farting(MycroftSkill):
         #time.sleep(int(tag.duration))
         self.speak_dialog('noise')
         time.sleep (3)
-        self.bus.emit(Message("mycroft.mic.listen")        
+        self.bus.emit(Message("mycroft.mic.listen"))        
 
     @intent_file_handler('halt_farting.intent')
     def halt_farting(self, message):
