@@ -27,7 +27,7 @@ from mycroft import MycroftSkill, intent_file_handler
 from mycroft.skills.audioservice import AudioService
 from mycroft.messagebus.message import Message
 
-class RandomSpeech(MycroftSkill):
+class CalamityComments(MycroftSkill):
     def __init__(self):
         MycroftSkill.__init__(self)
 
@@ -70,7 +70,7 @@ class RandomSpeech(MycroftSkill):
     @intent_file_handler('farting.intent')
     def fart_and_comment(self):
         # play a randomly selected fart noise and make a comment
-        self.log.info("Fart and comment")
+        self.log.info("Comment")
         #sound_file = path.join(self.path_to_sound_files,
         #                       random.choice(self.sound_files))
         #sound_url = 'file://' + path.join(self.path_to_sound_files,
@@ -80,7 +80,7 @@ class RandomSpeech(MycroftSkill):
         #self.log.info("Fart duration " + str(int(tag.duration)))
         #time.sleep(int(tag.duration))
         self.speak_dialog('noise')
-        time.sleep (3)
+        time.sleep (4)
         self.bus.emit(Message("mycroft.mic.listen"))
     
     @intent_file_handler('halt_farting.intent')
@@ -95,5 +95,5 @@ class RandomSpeech(MycroftSkill):
 
 
 def create_skill():
-    return RandomSpeech()
+    return CalamityComments()
 
