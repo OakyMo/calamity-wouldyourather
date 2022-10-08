@@ -25,7 +25,7 @@ from tinytag import TinyTag
 
 from mycroft import MycroftSkill, intent_file_handler
 from mycroft.skills.audioservice import AudioService
-
+from mycroft.messagebus.message import Message
 
 class RandomSpeech(MycroftSkill):
     def __init__(self):
