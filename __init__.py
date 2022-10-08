@@ -27,7 +27,7 @@ from mycroft import MycroftSkill, intent_file_handler
 from mycroft.skills.audioservice import AudioService
 
 
-class Farting(MycroftSkill):
+class RandomSpeech(MycroftSkill):
     def __init__(self):
         MycroftSkill.__init__(self)
 
@@ -80,9 +80,7 @@ class Farting(MycroftSkill):
         #self.log.info("Fart duration " + str(int(tag.duration)))
         #time.sleep(int(tag.duration))
         self.speak_dialog('noise')
-        time.sleep (3)
-        self.bus.emit(Message("mycroft.mic.listen"))        
-
+    
     @intent_file_handler('halt_farting.intent')
     def halt_farting(self, message):
         self.log.info("Stopping")
