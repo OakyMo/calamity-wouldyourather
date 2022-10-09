@@ -65,6 +65,10 @@ class CalamityComments(MycroftSkill):
     def handle_goodbye_intent(self, message):
         self.speak_dialog('farewell')
         
+    @intent_file_handler('thanks.intent')
+    def handle_thanks_intent(self, message):
+        self.speak_dialog('welcome')
+        
     @intent_file_handler('random.intent')
     def handle_random_intent(self, message):
         # repurposed to start random comments
