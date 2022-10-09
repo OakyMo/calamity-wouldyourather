@@ -62,7 +62,7 @@ class CalamityComments(MycroftSkill):
         self.speak_dialog('silence')
         
     @intent_file_handler('goodbye.intent')
-    def handle_okay_intent(self, message):
+    def handle_goodbye_intent(self, message):
         self.speak_dialog('farewell')
         
     @intent_file_handler('random.intent')
