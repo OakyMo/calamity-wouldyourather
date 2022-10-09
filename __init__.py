@@ -32,7 +32,7 @@ class CalamityComments(MycroftSkill):
         MycroftSkill.__init__(self)
 
     def initialize(self):
-        # Search the sounds directory for sound files and load into a list.
+        # retained to avoid errors 
         valid_codecs = ['.mp3']
         self.path_to_sound_files = path.join(abspath(dirname(__file__)), 'sounds')
         self.sound_files = [f for f in listdir(self.path_to_sound_files) if splitext(f)[1] in valid_codecs]
@@ -41,7 +41,7 @@ class CalamityComments(MycroftSkill):
         self.counter = 0  # variable to increment to make the scheduled event unique
 
     def handle_fart_event(self, message):
-        # create a scheduled event to fart at a random interval between 1 minute and half an hour
+        # repurposed to randomly schedule next random comment
         self.log.info("Handling fart event")
         if not self.random_farting:
             return
@@ -57,9 +57,17 @@ class CalamityComments(MycroftSkill):
         # make a comment when accused of farting
         self.speak_dialog('apologise')
         
+    @intent_file_handler('okay.intent')
+    def handle_okay_intent(self, message):
+        self.speak_dialog('silence')
+        
+    @intent_file_handler('goodbye.intent')
+    def handle_okay_intent(self, message):
+        self.speak_dialog('farewell')
+        
     @intent_file_handler('random.intent')
     def handle_random_intent(self, message):
-        # initiate random farting
+        # repurposed to start random comments
         self.log.info("Triggering random farting")
         #self.speak_dialog('random_farting')
         self.random_farting = True
@@ -69,7 +77,7 @@ class CalamityComments(MycroftSkill):
 
     @intent_file_handler('farting.intent')
     def fart_and_comment(self):
-        # play a randomly selected fart noise and make a comment
+        # repurposed to generate all random comments
         self.log.info("Comment")
         #sound_file = path.join(self.path_to_sound_files,
         #                       random.choice(self.sound_files))
@@ -86,7 +94,7 @@ class CalamityComments(MycroftSkill):
     @intent_file_handler('halt_farting.intent')
     def halt_farting(self, message):
         self.log.info("Stopping")
-        # if in random fart mode, cancel the scheduled event
+        # repurposed to stop random comments
         if self.random_farting:
             self.log.info("Stopping random farting event")
             #self.speak_dialog('cancel')
