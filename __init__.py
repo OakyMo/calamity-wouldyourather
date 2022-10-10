@@ -52,31 +52,6 @@ class CalamityComments(MycroftSkill):
                             name='random_fart'+str(self.counter))
         self.fart_and_comment()
 
-    @intent_file_handler('accuse.intent')
-    def handle_accuse_intent(self, message):
-        # make a comment when accused of farting
-        self.speak_dialog('apologise')
-        
-    @intent_file_handler('okay.intent')
-    def handle_okay_intent(self, message):
-        self.speak_dialog('silence')
-        
-    @intent_file_handler('goodbye.intent')
-    def handle_goodbye_intent(self, message):
-        self.speak_dialog('farewell')
-        
-    @intent_file_handler('thanks.intent')
-    def handle_thanks_intent(self, message):
-        self.speak_dialog('welcome')
-        
-    @intent_file_handler('color.intent')
-    def handle_thanks_intent(self, message):
-        self.speak_dialog('colors')
-        
-    @intent_file_handler('coinflip.intent')
-    def handle_thanks_intent(self, message):
-        self.speak_dialog('flip')
-  
     @intent_file_handler('random.intent')
     def handle_random_intent(self, message):
         # repurposed to start random comments
