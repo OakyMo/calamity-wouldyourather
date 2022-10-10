@@ -92,7 +92,7 @@ class CalamityComments(MycroftSkill):
         #self.log.info("Fart duration " + str(int(tag.duration)))
         #time.sleep(int(tag.duration))
         self.speak_dialog('noise')
-        time.sleep (4)
+        time.sleep (5)
         self.bus.emit(Message("mycroft.mic.listen"))
     
     @intent_file_handler('halt_farting.intent')
