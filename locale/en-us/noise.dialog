@@ -472,35 +472,332 @@
 . . . How do you embarrass an archaeologist?. . . Give him a used tampon and ask him which period it came from.. . 
 . . . How do you circumcise a hillbilly?. . . Kick his sister in the jaw.. . 
 . . . What did the hurricane say to the coconut tree?. . . Hold on to your nuts, this ain’t no ordinary blowjob.. . 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+. . . you should use more acacia wood. . . 
+. . . you should use more andesite. . . 
+. . . you should use more birch wood. . . 
+. . . you should use more blackstone. . . 
+. . . i like amethyst. it's pretty. . . 
+. . . i like coal. it's so useful. . . 
+. . . you need more coal. . . 
+. . . i like copper. . . 
+. . . you need more copper. . . 
+. . . i love diamonds so much. . . 
+. . . you need more diamonds. . . 
+. . . emeralds are nice. . . 
+. . . you need more emeralds. . . 
+. . . i like gold a lot. isn't it neat. . . 
+. . . i love iron. it's so strong. . . 
+. . . i like lapis. it's sort of magical. . . 
+. . . you need more gold. . . 
+. . . you need more iron. . . 
+. . . you need more lapis. . . 
+. . . you need netherite. . . 
+. . . you need quartz. . . 
+. . . you should use more brick. . . 
+. . . you should use more sandstone. . . 
+. . . you should use more red sandstone. . . 
+. . . you should use more deepslate. . . 
+. . . you should use more cobblestone. . . 
+. . . you should use more copper. . . 
+. . . you should use more dark oak. . . 
+. . . you should use more diorite. . . 
+. . . you should use more granite. . . 
+. . . you should use more jungle wood. . . 
+. . . you should use more mangrove wood. . . 
+. . . you should use more mud brick. . . 
+. . . you should use more nether brick. . . 
+. . . you should use more oak wood. . . 
+. . . you should use more polished blackstone. . . 
+. . . you should use more prismarine. . . 
+. . . you should use more quartz. . . 
+. . . you should use more spruce wood. . . 
+. . . you should use more stone. . . 
+. . . you need better armor. . . 
+. . . you need better weapons. . . 
+. . . you need better tools. . . 
+. . . do you have enough food. . . 
+. . . is there enough food. . . 
+. . . are you sure you have enough food. . . 
+. . . you know. you can't really have too much food. . . 
+. . . i'm worried about the food. . . 
+. . . aren't you worried about the food. . . 
+. . . do you have a bed nearby. . . 
+. . . maybe you should have a bed nearby. . . 
+. . . are you ever going to build a volcano. . . 
+. . . are you ever going to build a castle. . . 
+. . . are you ever going to build a giant ship. . . 
+. . . are you ever going to build a flying base. . . 
+. . . are you ever going to build a skyscraper. . . 
+. . . are you ever going to build a mountain base. . . 
+. . . are you ever going to build a mansion. . . 
+. . . are you ever going to build a pyramid. . . 
+. . . are you ever going to build a whole town. . . 
+. . . are you ever going to build a bridge. . . 
+. . . are you ever going to build an underground base. . . 
+. . . are you ever going to build an entire city. . . 
+. . . are you ever going to build a famous landmark. . . 
+. . . are you ever going to build an underwater base. . . 
+. . . are you ever going to build an underground city. . . 
+. . . are you ever going to build a giant treehouse. . . 
+. . . are you ever going to build a giant maze. . . 
+. . . are you ever going to build a giant pagoda. . . 
+. . . are you ever going to build a lighthouse. . . 
+. . . are you ever going to build a wizard's tower. . . 
+. . . maybe you should check your achievements. . . 
+. . . do you have decent weapons. . . 
+. . . do you have decent armor. . . 
+. . . do you have decent tools. . . 
+. . . do you have a bed with you. . . 
+. . . do you have flint and steel. . . 
+. . . i prefer the  Ocean. . . 
+. . . i prefer the  Deep Ocean. . . 
+. . . i prefer the  Frozen Ocean. . . 
+. . . i prefer the  Deep Frozen Ocean. . . 
+. . . i prefer the  Cold Ocean. . . 
+. . . i prefer the  Deep Cold Ocean. . . 
+. . . i prefer the  Lukewarm Ocean. . . 
+. . . i prefer the  Deep Lukewarm Ocean. . . 
+. . . i prefer the  Warm Ocean. . . 
+. . . i prefer the  Deep Warm Ocean. . . 
+. . . i prefer the  River. . . 
+. . . i prefer the  Frozen River. . . 
+. . . i prefer the  Beach. . . 
+. . . i prefer the  Stony Shore. . . 
+. . . i prefer the  Snowy Beach. . . 
+. . . i prefer the  Forest. . . 
+. . . i prefer the  Wooded Hills. . . 
+. . . i prefer the  Flower Forest. . . 
+. . . i prefer the  Birch Forest. . . 
+. . . i prefer the  Birch Forest Hills. . . 
+. . . i prefer the  Old Growth Birch Forest. . . 
+. . . i prefer the  Tall Birch Hills. . . 
+. . . i prefer the  Dark Forest. . . 
+. . . i prefer the  Dark Forest Hills. . . 
+. . . i prefer the  Jungle. . . 
+. . . i prefer the  Jungle Hills. . . 
+. . . i prefer the  Modified Jungle. . . 
+. . . i prefer the  Sparse Jungle. . . 
+. . . i prefer the  Modified Jungle Edge. . . 
+. . . i prefer the  Bamboo Jungle. . . 
+. . . i prefer the  Bamboo Jungle Hills. . . 
+. . . i prefer the  Taiga. . . 
+. . . i prefer the  Taiga Hills. . . 
+. . . i prefer the  Taiga Mountains. . . 
+. . . i prefer the  Snowy Taiga. . . 
+. . . i prefer the  Snowy Taiga Hills. . . 
+. . . i prefer the  Snowy Taiga Mountains. . . 
+. . . i prefer the  Old Growth Pine Taiga. . . 
+. . . i prefer the  Giant Tree Taiga Hills. . . 
+. . . i prefer the  Old Growth Spruce Taiga. . . 
+. . . i prefer the  Giant Spruce Taiga Hills. . . 
+. . . i prefer the  Mushroom Fields. . . 
+. . . i prefer the  Mushroom Field Shore. . . 
+. . . i prefer the  Swamp. . . 
+. . . i prefer the  Swamp Hills. . . 
+. . . i prefer the  Savanna. . . 
+. . . i prefer the  Savanna Plateau. . . 
+. . . i prefer the  Windswept Savanna. . . 
+. . . i prefer the  Shattered Savanna Plateau. . . 
+. . . i prefer the  Plains. . . 
+. . . i prefer the  Sunflower Plains. . . 
+. . . i prefer the  Desert. . . 
+. . . i prefer the  Desert Hills. . . 
+. . . i prefer the  Desert Lakes. . . 
+. . . i prefer the  Snowy Plains. . . 
+. . . i prefer the  Snowy Mountains. . . 
+. . . i prefer the  Ice Spikes. . . 
+. . . i prefer the  Windswept Hills. . . 
+. . . i prefer the  Windswept Forest. . . 
+. . . i prefer the  Windswept Gravelly Hills. . . 
+. . . i prefer the  Gravelly Mountains+. . . 
+. . . i prefer the  Mountain Edge. . . 
+. . . i prefer the  Badlands. . . 
+. . . i prefer the  Badlands Plateau. . . 
+. . . i prefer the  Modified Badlands Plateau. . . 
+. . . i prefer the  Wooded Badlands Plateau. . . 
+. . . i prefer the  Modified Wooded Badlands Plateau. . . 
+. . . i prefer the  Eroded Badlands. . . 
+. . . i prefer the  Meadow. . . 
+. . . i prefer the  Grove. . . 
+. . . i prefer the  Snowy Slopes. . . 
+. . . i prefer the  Jagged Peaks. . . 
+. . . i prefer the  Frozen Peaks. . . 
+. . . i prefer the  Stony Peaks. . . 
+. . . i prefer the  Lush Caves. . . 
+. . . i prefer the  Dripstone Caves. . . 
+. . . i prefer the  Deep Dark. . . 
+. . . i prefer the  Mangrove Swamp. . . 
+. . . i prefer the  Nether Wastes. . . 
+. . . i prefer the  Crimson Forest. . . 
+. . . i prefer the  Warped Forest. . . 
+. . . i prefer the  Soul Sand Valley. . . 
+. . . i prefer the  Basalt Deltas. . . 
+. . . i prefer the  The End. . . 
+. . . i don't like the  Ocean. . . 
+. . . i don't like the  Deep Ocean. . . 
+. . . i don't like the  Frozen Ocean. . . 
+. . . i don't like the  Deep Frozen Ocean. . . 
+. . . i don't like the  Cold Ocean. . . 
+. . . i don't like the  Deep Cold Ocean. . . 
+. . . i don't like the  Lukewarm Ocean. . . 
+. . . i don't like the  Deep Lukewarm Ocean. . . 
+. . . i don't like the  Warm Ocean. . . 
+. . . i don't like the  Deep Warm Ocean. . . 
+. . . i don't like the  River. . . 
+. . . i don't like the  Frozen River. . . 
+. . . i don't like the  Beach. . . 
+. . . i don't like the  Stony Shore. . . 
+. . . i don't like the  Snowy Beach. . . 
+. . . i don't like the  Forest. . . 
+. . . i don't like the  Wooded Hills. . . 
+. . . i don't like the  Flower Forest. . . 
+. . . i don't like the  Birch Forest. . . 
+. . . i don't like the  Birch Forest Hills. . . 
+. . . i don't like the  Old Growth Birch Forest. . . 
+. . . i don't like the  Tall Birch Hills. . . 
+. . . i don't like the  Dark Forest. . . 
+. . . i don't like the  Dark Forest Hills. . . 
+. . . i don't like the  Jungle. . . 
+. . . i don't like the  Jungle Hills. . . 
+. . . i don't like the  Modified Jungle. . . 
+. . . i don't like the  Sparse Jungle. . . 
+. . . i don't like the  Modified Jungle Edge. . . 
+. . . i don't like the  Bamboo Jungle. . . 
+. . . i don't like the  Bamboo Jungle Hills. . . 
+. . . i don't like the  Taiga. . . 
+. . . i don't like the  Taiga Hills. . . 
+. . . i don't like the  Taiga Mountains. . . 
+. . . i don't like the  Snowy Taiga. . . 
+. . . i don't like the  Snowy Taiga Hills. . . 
+. . . i don't like the  Snowy Taiga Mountains. . . 
+. . . i don't like the  Old Growth Pine Taiga. . . 
+. . . i don't like the  Giant Tree Taiga Hills. . . 
+. . . i don't like the  Old Growth Spruce Taiga. . . 
+. . . i don't like the  Giant Spruce Taiga Hills. . . 
+. . . i don't like the  Mushroom Fields. . . 
+. . . i don't like the  Mushroom Field Shore. . . 
+. . . i don't like the  Swamp. . . 
+. . . i don't like the  Swamp Hills. . . 
+. . . i don't like the  Savanna. . . 
+. . . i don't like the  Savanna Plateau. . . 
+. . . i don't like the  Windswept Savanna. . . 
+. . . i don't like the  Shattered Savanna Plateau. . . 
+. . . i don't like the  Plains. . . 
+. . . i don't like the  Sunflower Plains. . . 
+. . . i don't like the  Desert. . . 
+. . . i don't like the  Desert Hills. . . 
+. . . i don't like the  Desert Lakes. . . 
+. . . i don't like the  Snowy Plains. . . 
+. . . i don't like the  Snowy Mountains. . . 
+. . . i don't like the  Ice Spikes. . . 
+. . . i don't like the  Windswept Hills. . . 
+. . . i don't like the  Windswept Forest. . . 
+. . . i don't like the  Windswept Gravelly Hills. . . 
+. . . i don't like the  Gravelly Mountains+. . . 
+. . . i don't like the  Mountain Edge. . . 
+. . . i don't like the  Badlands. . . 
+. . . i don't like the  Badlands Plateau. . . 
+. . . i don't like the  Modified Badlands Plateau. . . 
+. . . i don't like the  Wooded Badlands Plateau. . . 
+. . . i don't like the  Modified Wooded Badlands Plateau. . . 
+. . . i don't like the  Eroded Badlands. . . 
+. . . i don't like the  Meadow. . . 
+. . . i don't like the  Grove. . . 
+. . . i don't like the  Snowy Slopes. . . 
+. . . i don't like the  Jagged Peaks. . . 
+. . . i don't like the  Frozen Peaks. . . 
+. . . i don't like the  Stony Peaks. . . 
+. . . i don't like the  Lush Caves. . . 
+. . . i don't like the  Dripstone Caves. . . 
+. . . i don't like the  Deep Dark. . . 
+. . . i don't like the  Mangrove Swamp. . . 
+. . . i don't like the  Nether Wastes. . . 
+. . . i don't like the  Crimson Forest. . . 
+. . . i don't like the  Warped Forest. . . 
+. . . i don't like the  Soul Sand Valley. . . 
+. . . i don't like the  Basalt Deltas. . . 
+. . . i don't like the  The End. . . 
+. . . i'd rather be in the  Ocean. . . 
+. . . i'd rather be in the  Deep Ocean. . . 
+. . . i'd rather be in the  Frozen Ocean. . . 
+. . . i'd rather be in the  Deep Frozen Ocean. . . 
+. . . i'd rather be in the  Cold Ocean. . . 
+. . . i'd rather be in the  Deep Cold Ocean. . . 
+. . . i'd rather be in the  Lukewarm Ocean. . . 
+. . . i'd rather be in the  Deep Lukewarm Ocean. . . 
+. . . i'd rather be in the  Warm Ocean. . . 
+. . . i'd rather be in the  Deep Warm Ocean. . . 
+. . . i'd rather be in the  River. . . 
+. . . i'd rather be in the  Frozen River. . . 
+. . . i'd rather be in the  Beach. . . 
+. . . i'd rather be in the  Stony Shore. . . 
+. . . i'd rather be in the  Snowy Beach. . . 
+. . . i'd rather be in the  Forest. . . 
+. . . i'd rather be in the  Wooded Hills. . . 
+. . . i'd rather be in the  Flower Forest. . . 
+. . . i'd rather be in the  Birch Forest. . . 
+. . . i'd rather be in the  Birch Forest Hills. . . 
+. . . i'd rather be in the  Old Growth Birch Forest. . . 
+. . . i'd rather be in the  Tall Birch Hills. . . 
+. . . i'd rather be in the  Dark Forest. . . 
+. . . i'd rather be in the  Dark Forest Hills. . . 
+. . . i'd rather be in the  Jungle. . . 
+. . . i'd rather be in the  Jungle Hills. . . 
+. . . i'd rather be in the  Modified Jungle. . . 
+. . . i'd rather be in the  Sparse Jungle. . . 
+. . . i'd rather be in the  Modified Jungle Edge. . . 
+. . . i'd rather be in the  Bamboo Jungle. . . 
+. . . i'd rather be in the  Bamboo Jungle Hills. . . 
+. . . i'd rather be in the  Taiga. . . 
+. . . i'd rather be in the  Taiga Hills. . . 
+. . . i'd rather be in the  Taiga Mountains. . . 
+. . . i'd rather be in the  Snowy Taiga. . . 
+. . . i'd rather be in the  Snowy Taiga Hills. . . 
+. . . i'd rather be in the  Snowy Taiga Mountains. . . 
+. . . i'd rather be in the  Old Growth Pine Taiga. . . 
+. . . i'd rather be in the  Giant Tree Taiga Hills. . . 
+. . . i'd rather be in the  Old Growth Spruce Taiga. . . 
+. . . i'd rather be in the  Giant Spruce Taiga Hills. . . 
+. . . i'd rather be in the  Mushroom Fields. . . 
+. . . i'd rather be in the  Mushroom Field Shore. . . 
+. . . i'd rather be in the  Swamp. . . 
+. . . i'd rather be in the  Swamp Hills. . . 
+. . . i'd rather be in the  Savanna. . . 
+. . . i'd rather be in the  Savanna Plateau. . . 
+. . . i'd rather be in the  Windswept Savanna. . . 
+. . . i'd rather be in the  Shattered Savanna Plateau. . . 
+. . . i'd rather be in the  Plains. . . 
+. . . i'd rather be in the  Sunflower Plains. . . 
+. . . i'd rather be in the  Desert. . . 
+. . . i'd rather be in the  Desert Hills. . . 
+. . . i'd rather be in the  Desert Lakes. . . 
+. . . i'd rather be in the  Snowy Plains. . . 
+. . . i'd rather be in the  Snowy Mountains. . . 
+. . . i'd rather be in the  Ice Spikes. . . 
+. . . i'd rather be in the  Windswept Hills. . . 
+. . . i'd rather be in the  Windswept Forest. . . 
+. . . i'd rather be in the  Windswept Gravelly Hills. . . 
+. . . i'd rather be in the  Gravelly Mountains+. . . 
+. . . i'd rather be in the  Mountain Edge. . . 
+. . . i'd rather be in the  Badlands. . . 
+. . . i'd rather be in the  Badlands Plateau. . . 
+. . . i'd rather be in the  Modified Badlands Plateau. . . 
+. . . i'd rather be in the  Wooded Badlands Plateau. . . 
+. . . i'd rather be in the  Modified Wooded Badlands Plateau. . . 
+. . . i'd rather be in the  Eroded Badlands. . . 
+. . . i'd rather be in the  Meadow. . . 
+. . . i'd rather be in the  Grove. . . 
+. . . i'd rather be in the  Snowy Slopes. . . 
+. . . i'd rather be in the  Jagged Peaks. . . 
+. . . i'd rather be in the  Frozen Peaks. . . 
+. . . i'd rather be in the  Stony Peaks. . . 
+. . . i'd rather be in the  Lush Caves. . . 
+. . . i'd rather be in the  Dripstone Caves. . . 
+. . . i'd rather be in the  Deep Dark. . . 
+. . . i'd rather be in the  Mangrove Swamp. . . 
+. . . i'd rather be in the  Nether Wastes. . . 
+. . . i'd rather be in the  Crimson Forest. . . 
+. . . i'd rather be in the  Warped Forest. . . 
+. . . i'd rather be in the  Soul Sand Valley. . . 
+. . . i'd rather be in the  Basalt Deltas. . . 
+. . . i'd rather be in the  The End. . . 
