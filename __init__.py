@@ -48,7 +48,7 @@ class CalamityScared(MycroftSkill):
         self.cancel_scheduled_event('random_fart'+str(self.counter))
         self.counter += 1
         self.schedule_event(self.handle_fart_event, datetime.now() 
-                            + timedelta(seconds=random.randrange(60, 180)),
+                            + timedelta(seconds=random.randrange(60, 90)),
                             name='random_fart'+str(self.counter))
         self.fart_and_comment()
 
