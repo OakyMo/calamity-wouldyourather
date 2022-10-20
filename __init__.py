@@ -27,7 +27,7 @@ from mycroft import MycroftSkill, intent_file_handler
 from mycroft.skills.audioservice import AudioService
 from mycroft.messagebus.message import Message
 
-class CalamityScared(MycroftSkill):
+class CalamityWouldYouRather(MycroftSkill):
     def __init__(self):
         MycroftSkill.__init__(self)
 
@@ -88,5 +88,5 @@ class CalamityScared(MycroftSkill):
 
 
 def create_skill():
-    return CalamityScared()
+    return CalamityWouldYouRather()
 
